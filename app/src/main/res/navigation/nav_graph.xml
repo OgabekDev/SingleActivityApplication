@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    tools:ignore="InvalidNavigation"
+    app:startDestination="@id/splashFragment">
+
+    <action
+        android:id="@+id/action_global_loginFlowFragment"
+        app:destination="@id/loginFlowFragment"
+        app:popUpTo="@id/nav_graph" />
+
+    <action
+        android:id="@+id/action_global_mainFlowFragment"
+        app:destination="@id/mainFlowFragment"
+        app:popUpTo="@id/nav_graph" />
+
+    <fragment
+        android:id="@+id/mainFlowFragment"
+        android:name="com.ogabek.android_saa.fragment.main.MainFlowFragment"
+        android:label="flow_fragment_main"
+        tools:layout="@layout/flow_fragment_main" />
+
+    <fragment
+        android:id="@+id/loginFlowFragment"
+        android:name="com.ogabek.android_saa.fragment.auth.LoginFlowFragment"
+        android:label="flow_fragment_sign"
+        tools:layout="@layout/flow_fragment_login" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.ogabek.android_saa.fragment.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+
+</navigation>
