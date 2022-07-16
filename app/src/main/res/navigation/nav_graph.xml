@@ -18,18 +18,18 @@
 
     <fragment
         android:id="@+id/mainFlowFragment"
-        android:name="com.ogabek.android_saa.fragment.main.MainFlowFragment"
+        android:name="dev.ogabek.android_saa.fragment.main.MainFlowFragment"
         android:label="flow_fragment_main"
         tools:layout="@layout/flow_fragment_main" />
 
     <fragment
         android:id="@+id/loginFlowFragment"
-        android:name="com.ogabek.android_saa.fragment.auth.LoginFlowFragment"
+        android:name="dev.ogabek.android_saa.fragment.auth.LoginFlowFragment"
         android:label="flow_fragment_sign"
         tools:layout="@layout/flow_fragment_login" />
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.ogabek.android_saa.fragment.splash.SplashFragment"
+        android:name="dev.ogabek.android_saa.fragment.splash.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" />
 

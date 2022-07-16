@@ -7,31 +7,31 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.ogabek.android_saa.fragment.main.home.HomeFragment"
+        android:name="dev.ogabek.android_saa.fragment.main.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_search"
-        android:name="com.ogabek.android_saa.fragment.main.search.SearchFragment"
+        android:name="dev.ogabek.android_saa.fragment.main.search.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
 
     <fragment
         android:id="@+id/navigation_history"
-        android:name="com.ogabek.android_saa.fragment.main.history.HistoryFragment"
+        android:name="dev.ogabek.android_saa.fragment.main.history.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
 
     <fragment
         android:id="@+id/navigation_activity"
-        android:name="com.ogabek.android_saa.fragment.main.activity.ActivityFragment"
+        android:name="dev.ogabek.android_saa.fragment.main.activity.ActivityFragment"
         android:label="fragment_activity"
         tools:layout="@layout/fragment_activity" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.ogabek.android_saa.fragment.main.profile.ProfileFragment"
+        android:name="dev.ogabek.android_saa.fragment.main.profile.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 

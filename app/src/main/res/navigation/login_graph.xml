@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.ogabek.android_saa.fragment.auth.login.LoginFragment"
+        android:name="dev.ogabek.android_saa.fragment.auth.login.LoginFragment"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_login" >
 
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/signupFragment"
-        android:name="com.ogabek.android_saa.fragment.auth.signup.SignupFragment"
+        android:name="dev.ogabek.android_saa.fragment.auth.signup.SignupFragment"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_signup" >
         <action
